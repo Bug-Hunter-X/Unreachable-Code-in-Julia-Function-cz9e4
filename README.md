@@ -1,0 +1,3 @@
+# Unreachable Code in Julia Function
+
+This repository demonstrates a common error in Julia: unreachable code after a `return` statement. The `println` statement within `myfunction` will never be executed because the function always returns before reaching it.  This example highlights the importance of careful code structure and the potential for unexpected behavior when return statements are not properly considered.
